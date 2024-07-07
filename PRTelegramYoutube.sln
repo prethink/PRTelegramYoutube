@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRTelegramYoutube", "PRTelegramYoutube\PRTelegramYoutube.csproj", "{58FD059A-FCF9-47F8-AA9C-0FC1D6C9706E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58FD059A-FCF9-47F8-AA9C-0FC1D6C9706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FD059A-FCF9-47F8-AA9C-0FC1D6C9706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FD059A-FCF9-47F8-AA9C-0FC1D6C9706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FD059A-FCF9-47F8-AA9C-0FC1D6C9706E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2722A912-5C8C-4E65-9609-0AC997F3FAF8}
+	EndGlobalSection
+EndGlobal
