@@ -1,4 +1,5 @@
 ﻿using PRTelegramBot.Attributes;
+using PRTelegramBot.Extensions;
 using PRTelegramBot.Interfaces;
 using PRTelegramBot.Models;
 using PRTelegramBot.Models.CallbackCommands;
@@ -16,9 +17,10 @@ namespace PRTelegramYoutube
         public static int count = 0;
         #region reply
 
-        [ReplyMenuHandler("Тест")]
+        [ReplyMenuHandler(-1,"Тест")]
         public static async Task TestMethod(ITelegramBotClient botclient, Update update)
         {
+            var botId = botclient.GetBotDataOrNull().BotId;
             string msg = "Hello World";
             await PRTelegramBot.Helpers.Message.Send(botclient, update, msg);
         }
