@@ -1,7 +1,15 @@
-﻿using PRTelegramBot.Core;
+﻿using PRTelegramBot.Configs;
+using PRTelegramBot.Core;
 using PRTelegramBot.Models.EventsArgs;
 
-var bot = new PRBotBuilder("Token").Build();
+var botProviders = new BotConfigJsonProvider(".\\Configs\\commands.json");
+var dynamicCommands = botProviders.GetKeysAndValues();
+
+var bot = new PRBotBuilder("Token")
+    .AddReplyDynamicCommands(dynamicCommands)
+    .AddConfigPath("Message",".//Configs//message.json")
+    .Build();
+
 bot.Events.OnCommonLog += Events_OnCommonLog;
 _ = bot.Start();
 
