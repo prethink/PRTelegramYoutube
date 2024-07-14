@@ -5,7 +5,7 @@
 Урок 4. [Работа с несколькими ботами в 1 проекте.](https://youtu.be/eebEUvEOaho)   
 Урок 5. [Middlewares. Работа с промежуточными обработчиика update](https://youtu.be/ZT44KAqYoGg )    
 Урок 6. [Работа с администраторами в боте.](https://youtu.be/Z6g8Baba_PY)    
-Урок 6. [Внутренние проверки для команд](https://youtu.be/oToLwwfF6jI)    
+Урок 7. [Внутренние проверки для команд](https://youtu.be/oToLwwfF6jI)    
 
 
 
