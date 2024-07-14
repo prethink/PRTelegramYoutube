@@ -11,6 +11,7 @@ var bot = new PRBotBuilder("Token")
     .AddReplyDynamicCommands(dynamicCommands)
     .AddConfigPath("Message",".//Configs//message.json")
     .AddMiddlewares(new OneMiddleware(), new ThreeMiddleware(), new TwoMiddleware())
+    .AddAdmin(111)
     .Build();
 
 
