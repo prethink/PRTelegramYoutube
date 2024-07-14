@@ -21,5 +21,12 @@ namespace PRTelegramYoutube.Admins
                 await botClient.SendTextMessageAsync(update.GetChatIdClass(), "Я не админ");
             }
         }
+
+        [AdminOnly]
+        [ReplyMenuHandler("AdminOnly")]
+        public static async Task AdminOnly(ITelegramBotClient botClient, Update update)
+        {
+            await botClient.SendTextMessageAsync(update.GetChatIdClass(), "Я админ");
+        }
     }
 }
